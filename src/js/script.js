@@ -53,7 +53,7 @@ $(document).ready(function() {
 	});
 		
 	function validateForms(form) {
-		$('form').validate({
+		$(form).validate({
 			rules: {
 				name: {
 					required: true,
