@@ -20,18 +20,20 @@
     &__descr {
         padding-top: 25px;
         max-width: 240px;
-    }
-    &__note {
-        color: $main-color;
-        text-decoration: underline;
-    }
-        // &__subheader {
-    //     text-align: center;
-    //     font-size: 30px;
-    //     line-height: 24px;
-    //     font-weight: 500px;
-    //     text-transform: uppercase;
-    // }
+		a {
+			color: $main-color;
+			text-decoration:underline; 
+			text-transform: uppercase;
+		}
+	}
+    &__img {
+		&_animated {
+			animation: heartbeat 1.5s ease infinite;
+			&:hover {
+				animation-play-state: paused;
+			}
+		}
+	}
 }
 .title {
     color: #0d0d0d;
