@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
+	
 </head>
 <body>
     <section class="promo" id="up">
@@ -68,7 +70,7 @@
                         так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/advantages/advantages_heart.png" alt="health" class="advantages__img">
+                    <img src="icons/advantages/advantages_heart.png" alt="health" class="advantages__img advantages__img_animated">
                     <div class="advantages__name">Заботимся о здоровье</div>
                     <div class="advantages__descr">Мы работаем для того, 
                         чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
@@ -79,7 +81,7 @@
                     <div class="advantages__name">Учим бегать</div>
                     <div class="advantages__descr">Помогаем с обучением 
                         правильной технике бега! 
-                        Дружим с крупнейшей школой бега в России - <span class="advantages__note">I LOVE RUNNING.</span>
+                        Дружим с крупнейшей школой бега в России - <a href="#" class="advantages__note">I LOVE RUNNING.</a>
                         </div>
                 </div>
             </div>
@@ -106,7 +108,7 @@
         </div>	
     </section>
 
-    <section class="carousel">
+    <div class="carousel">
         <div class="container">
             <div class="carousel__inner">
                 <div>
@@ -120,7 +122,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <section class="catalog">
         <div class="container">
@@ -141,13 +143,15 @@
                             <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div>
                             <a href="#" class="catalog-item__link">Подробнее</a>
                         </div>
-                        <ul class="catalog-item__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>					
-                            <a href="#" class="catalog-item__back">Назад</a>
-                        </ul>   
+						<div class="catalog-item__list">
+							<ul>
+								<li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+								<li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+								<li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+								<li>Вы сможете посмотреть данные по 10 тренировкам.</li>					
+							</ul>   
+							<a href="#" class="catalog-item__back">Назад</a>
+						</div>
                     </div>
                     <hr>
                     <div class="catalog-item__footer">
@@ -379,7 +383,7 @@
         <div class="container">
             <h2 class="title">Отзывы клиентов</h2>
            
-            <div class="review__item">
+            <div class="review__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/reviews/review_1.jpeg" alt="user" class="review__img">
                 
                 <div class="review__text">
@@ -394,8 +398,8 @@
                     </div>
                 </div>
             </div>
-            <hr>
-            <div class="review__item">
+            <!-- <hr class="animate__animated animate__fadeInUp" > -->
+            <div class="review__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/reviews/review_2.jpeg" alt="user" class="review__img">
                 
                 <div class="review__text">
@@ -408,8 +412,8 @@
                     </div>
                 </div>
             </div>
-            <hr>
-            <div class="review__item">
+            <!-- <hr class="animate__animated animate__fadeInUp" > -->
+            <div class="review__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/reviews/review_3.jpeg" alt="user" class="review__img">
                 
                 <div class="review__text">
@@ -424,13 +428,11 @@
                     </div>
                 </div>
             </div>
-            </div>
-
         </div>
     </section>
 
     <footer class="footer">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430481195992!2d37.644807315931104!3d55.76839498055754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2sby!4v1610124237270!5m2!1sru!2sby" width="100%" height="630" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430481195992!2d37.644807315931104!3d55.76839498055754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2sby!4v1610124237270!5m2!1sru!2sby"width="100%" height="630" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         <!-- <div class="footer__map"></div> -->
         <div class="footer__info">
             <address class="footer__addr">Москва, Мясницкий проезд, д.3с1</address>
@@ -483,12 +485,13 @@
 		<img src="icons/up.svg" alt="up" class="pageup">
 	</a>
     
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
-    <script src="js/script.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/script.js"></script>
 
 </body>
 </html>
