@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elizkovalenko/RunSmart.git"
+    "url": "git+https://github.com/elizkavalenka/RunSmart.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/elizkovalenko/RunSmart/issues"
+    "url": "https://github.com/elizkavalenka/RunSmart/issues"
   },
-  "homepage": "https://github.com/elizkovalenko/RunSmart#readme",
+  "homepage": "https://github.com/elizkavalenka/RunSmart#readme",
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
